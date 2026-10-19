@@ -3,17 +3,17 @@
 class Unpushed < Formula
   desc "Overview of unpushed commits across many git checkouts"
   homepage "https://github.com/pie-ai/unpushed"
-  version "0.1.0"
+  version "0.2.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/pie-ai/unpushed/releases/download/v#{version}/unpushed-aarch64-apple-darwin.tar.gz"
-      sha256 "3d8d258de185a83196eaf3caf0ecdc869c96ee01d5740269a966cc2ef08da258"
+      sha256 "4a155610fce4373fbd23066d3156ac99b927222aee88a7c1fdbee2ffbafef752"
     end
     on_intel do
       url "https://github.com/pie-ai/unpushed/releases/download/v#{version}/unpushed-x86_64-apple-darwin.tar.gz"
-      sha256 "d277c615546acf456a8042314eacb3fd3bcbd69edf49c20223b0995288d91526"
+      sha256 "587c51922fcc5dda1e6747f692df51ee80a66b774f94f75d438f6d998aac1f89"
     end
   end
 
